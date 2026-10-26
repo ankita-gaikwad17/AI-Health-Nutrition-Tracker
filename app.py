@@ -14,7 +14,7 @@ df = pd.DataFrame(data)
 X = df[['Calories', 'Sugar', 'Fiber']]
 y = df['Label']
 
-model = DecisionTreeClassifier()
+model = DecisionTreeClassifier(max_depth=3, random_state=42)
 model.fit(X, y)
 
 # 2. Web App Interface
