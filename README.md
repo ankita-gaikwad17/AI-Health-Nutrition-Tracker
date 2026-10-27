@@ -1,6 +1,6 @@
 AI Health Nutrition Tracker
 
-A beginner-friendly machine learning project built with Python and Streamlit to explore how nutritional values can be used to classify food samples as healthy or junk.
+A beginner-friendly machine learning project built with Python and Streamlit. It demonstrates how a Decision Tree classifier uses calories, sugar, and fiber values to predict sample healthy or junk food labels.
 
 Features
 
