@@ -18,9 +18,8 @@ model = DecisionTreeClassifier(max_depth=3, random_state=42)
 model.fit(X, y)
 
 # 2. Web App Interface
-st.title("AI Health Nutrition Tracker")
-st.write("Enter the food item's nutritional values below. Our trained Decision Tree AI model will predict whether it is Healthy or Junk Food:")
-
+st.write("Enter calories, sugar, and fiber values to explore the model's prediction. This is a small demo trained on sample data, not a reliable nutritional assessment.")
+         
 # Sliders for user inputs
 calories = st.slider("Calories (kcal)", 50, 1000, 300)
 sugar = st.slider("Sugar (g)", 0, 100, 10)

@@ -1,13 +1,36 @@
-# AI Health Nutrition Tracker
+AI Health Nutrition Tracker
 
-An intelligent machine learning project that classifies food items as Healthy or Junk using Python and Scikit-Learn.
+A beginner-friendly machine learning project built with Python and Streamlit to explore how nutritional values can be used to classify food samples as healthy or junk.
 
-## Features
-* Uses a Decision Tree Classifier algorithm to make predictions.
-* Processes nutritional features like Calories, Sugar, and Fiber.
-* Interactive Jupyter Notebook showing training and test results.
+Features
 
-## Tech Stack
-* Language: Python
-* Libraries: pandas, scikit-learn
-* Platform: Google Colab / Jupyter Notebook
+- Interactive sliders for calories, sugar, and fiber.
+- A Decision Tree Classifier for predictions.
+- A simple Streamlit web interface.
+- A Jupyter Notebook for exploring the model and its training.
+
+Tech Stack
+
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+- Jupyter Notebook
+
+How It Works
+
+The model is trained on a small sample dataset containing calories, sugar, fiber, and example labels. Users can adjust the sliders and explore the model's predictions.
+
+Limitations
+
+This is an educational demonstration, not a medically validated nutrition tool. The model uses a small sample dataset, so its predictions should not be treated as reliable nutritional advice.
+
+Run Locally
+
+Install the required libraries:
+
+pip install streamlit pandas scikit-learn
+
+Start the app:
+
+python -m streamlit run app.py
