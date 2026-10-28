@@ -25,9 +25,9 @@ The model is trained on a small sample dataset containing calories, sugar, fiber
 
 This is an educational demonstration, not a medically validated nutrition tool. The model uses a small sample dataset, so its predictions should not be treated as reliable nutritional advice.
 
-Run Locally
+# Run Locally
 
-# Install the required libraries:
+Install the required libraries:
 
 pip install streamlit pandas scikit-learn
 
